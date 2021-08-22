@@ -301,19 +301,19 @@ components.right.active[5] = {
   right_sep = ' '
 }
 -- rubyVersion
-components.right.active[6] = {
-  provider = function()
-    return ' '..vim.fn['rvm#string']()
-  end,
-  hl = {
-    fg = 'red',
-    bg = 'bg',
-    style = 'bold'
-  },
-  right_sep = ' '
-}
+-- components.right.active[6] = {
+--  provider = function()
+--    return ' '..vim.fn['rbenv#string']()
+--  end,
+--  hl = {
+--    fg = 'red',
+--    bg = 'bg',
+--    style = 'bold'
+--  },
+--  right_sep = ' '
+-- }
 -- lineInfo
-components.right.active[7] = {
+components.right.active[6] = {
   provider = 'position',
   hl = {
     fg = 'white',
@@ -323,7 +323,7 @@ components.right.active[7] = {
   right_sep = ' '
 }
 -- linePercent
-components.right.active[8] = {
+components.right.active[7] = {
   provider = 'line_percentage',
   hl = {
     fg = 'white',
@@ -333,7 +333,7 @@ components.right.active[8] = {
   right_sep = ' '
 }
 -- scrollBar
-components.right.active[9] = {
+components.right.active[8] = {
   provider = 'scroll_bar',
   hl = {
     fg = 'yellow',

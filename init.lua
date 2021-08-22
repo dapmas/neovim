@@ -31,7 +31,7 @@ require('plugins.vim-signature')
 require('plugins.lightspeed')
 require('plugins.lspkind')
 require('plugins.neoscroll')
-require('plugins.minimap')
+--require('plugins.minimap')
 require('plugins.diffview')
 require('plugins.todo-comments')
 -- Keymap

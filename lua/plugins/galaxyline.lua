@@ -253,7 +253,7 @@ gls.right[3] ={
   Ruby = {
     separator = ' ',
     provider = function()
-      return ' '..vim.fn['rvm#string']()
+      return ' '..vim.fn['rbenv#string']()
     end,
     separator_highlight = {colors.yellow,colors.bg, 'bold'},
     highlight = {colors.red,colors.bg, 'bold'}
