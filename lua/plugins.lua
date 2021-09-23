@@ -81,11 +81,11 @@ return require('packer').startup(function(use)
   use 'tversteeg/registers.nvim'
 
   -- Move & Search & replace
-  use 'windwp/nvim-spectre'
+  -- use 'windwp/nvim-spectre'
   use 'nacro90/numb.nvim'
   use 'dyng/ctrlsf.vim'
-  use 'kevinhwang91/nvim-hlslens'
-  use 'ggandor/lightspeed.nvim'
+  -- use 'kevinhwang91/nvim-hlslens'
+  -- use 'ggandor/lightspeed.nvim'
   use 'kshenoy/vim-signature'
   use 'karb94/neoscroll.nvim'
   use 'dstein64/nvim-scrollview'
@@ -115,7 +115,7 @@ return require('packer').startup(function(use)
   use 'sainnhe/sonokai'
 
   -- Tags
-  use 'ludovicchabant/vim-gutentags'
+  -- use 'ludovicchabant/vim-gutentags'
 
   -- General Plugins
   use 'airblade/vim-rooter'
@@ -123,6 +123,6 @@ return require('packer').startup(function(use)
   use 'jeffkreeftmeijer/vim-numbertoggle'
   use 'lambdalisue/suda.vim'
   use 'numtostr/FTerm.nvim'
-  use 'wfxr/minimap.vim'
+  -- use 'wfxr/minimap.vim'
   use 'folke/todo-comments.nvim'
 end)
